@@ -1,11 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  serverExternalPackages: [
-    "@grpc/grpc-js",
-    "@grpc/proto-loader",
-    "firebase-admin",
-  ],
+  output: "export",
 };
 
 export default nextConfig;
